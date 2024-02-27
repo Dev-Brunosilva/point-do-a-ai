@@ -36,7 +36,7 @@
     background-color: rgba(237, 253, 6, 0.781);
     height: 100%;
     width: 40%;
-    font-size: 23px;
+    font-size: 22px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
     margin-left: -28%;
@@ -66,7 +66,7 @@
 .content .lista-menu li a:hover {
     font-size: 16px;
     border-bottom:4px solid rgb(238, 255, 0);
-    color: rgba(217, 240, 12, 0.363);
+    color: rgba(217, 240, 12, 0.767);
 }
 /* fundo*/
 .first-section{
@@ -168,7 +168,6 @@
     width: 350px;
     height: 350px;
     margin-top: 40%;
-    margin-left: 30%;
     box-shadow: 0 0 10px 3px rgb(255, 255, 255);
 }
 .main {
