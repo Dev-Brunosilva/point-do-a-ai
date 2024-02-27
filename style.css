@@ -7,8 +7,8 @@
     text-decoration: none;
 }
 .content {
-    width: 100vw;
-    height: 70px;
+    width: 100%;
+    height: 13%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,11 +34,12 @@
 }
 .content input{
     background-color: rgba(237, 253, 6, 0.781);
-    height: 40px;
-    width: 280px;
+    height: 100%;
+    width: 40%;
+    font-size: 23px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    margin-left: -35%;
+    margin-left: -28%;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -50,6 +51,7 @@
 .content .lista-menu{
     width: 100%;
     display: flex;
+    font-weight: 200;
     align-items: center;
     text-align: center;
     justify-content: space-between;
@@ -89,8 +91,8 @@
 .card{
     margin: 2%;
     background-color: rgba(0, 0, 0, 0.596);
-    width: 290px;
-    height: 380px;
+    width: 90%;
+    height: 85%;
     border-radius: 40px;
     box-shadow: 0 0 10px 3px rgb(255, 255, 255);
     align-items: center;
@@ -132,8 +134,9 @@
     background-color:rgba(255, 251, 0, 0.87);
     color: #ffffff;
     font-size: 15px;
-    border: none;
+    font-weight: bolder;
     margin-top: 8%;
+    cursor: pointer;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -146,8 +149,8 @@
     }
     .compra:hover{
     border: 1px solid #ffffff ;
-    background-color:#1af806;
-    color:rgb(255, 6, 6);
+    background-color:#ffffff;
+    color:rgb(14, 255, 6);
     }
     
     /*sobre nos */
@@ -159,13 +162,13 @@
     color: aliceblue;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .sobre-nos img {
     width: 350px;
     height: 350px;
-    margin-top: 30%;
-    margin-left: 10rem;
+    margin-top: 40%;
+    margin-left: 30%;
     box-shadow: 0 0 10px 3px rgb(255, 255, 255);
 }
 .main {

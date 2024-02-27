@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1250px){
+    .content img{
+        margin-left: -108%;
+    }
+    .sobre-nos img {
+        margin-left: -1%;
+    }
+    .sobre-nos p{     
+    margin-left: -5%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .content .lista-menu li a{
+        font-size: 13px;
+        
+    }
+    .lanches h5{
+        font-size: 15px;
+    }
+    .lanches .promo{
+        font-size: 13px;
+    }
+    .content img{
+        display: none;
+    } 
+    .sobre-nos{
+        display: block;
+    }
+    .sobre-nos img {
+        width: 90%;
+        height: 75%;
+    }
+    .sobre-nos p{
+        font-size: 23px;
+    }
+
+    
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .content input{
+        width: 40%;
+        height: 50%;
+        font-size: 20px;
+    }
+
+    .content img{
+        display: none;
+    } 
+    .content .lista-menu li a{
+        font-size: 10px;
+    }
+    .first-section .card1{
+        display: none;
+    }
+    .first-section .card2{
+        display: none;
+    }
+    .sobre-nos img {
+        display: none;
+    }
+}
