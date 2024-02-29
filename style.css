@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,12 @@
     list-style: none;
     border: none;
     text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
+
 .content {
     width: 100%;
     height: 13%;
@@ -56,6 +63,10 @@
     text-align: center;
     justify-content: space-between;
 }
+.content .lista-menu svg {
+    color: yellow;
+    cursor: pointer;
+}
 .content .lista-menu li a {
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -86,19 +97,25 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    margin-top: 8%;
+}
+.lanches :hover{
+    transform: scale(1.03);
+    transition: .2s;
 }
 .card{
     margin: 2%;
     background-color: rgba(0, 0, 0, 0.596);
     width: 90%;
     height: 85%;
-    border-radius: 40px;
+    border-radius: 30px;
     box-shadow: 0 0 10px 3px rgb(255, 255, 255);
     align-items: center;
     justify-content: space-around;
     text-align: center;
+
 }
+
 .card img{
     display: flex;
     align-items: center;
@@ -124,16 +141,15 @@
     height: 18px;
     margin-top: 5%;
     font-size: 25px;
-    font-weight: 300;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color:rgba(255, 255, 255, 0.829);
 }
 
 .lanches .compra{
-    background-color:rgba(255, 251, 0, 0.87);
+    background-color:rgba(255, 251, 0, 0.726);
     color: #ffffff;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bolder;
     margin-top: 8%;
     cursor: pointer;
@@ -152,7 +168,7 @@
     background-color:#ffffff;
     color:rgb(14, 255, 6);
     }
-    
+   
     /*sobre nos */
     
 .sobre-nos{
@@ -233,26 +249,36 @@
 }
 .txt6{
     color: #ffffff;
-    font-size: 17px;
+    font-size: 23px;
     font-family: 'Poppins', sans-serif;
     text-align: center ;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
 }
 .txt7{
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
 }
 .rodape1 .txt8 {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     text-align: center center;
     align-items: center;
     margin-bottom: 10%;
+}
+.rodape1 svg{
+    margin-bottom: 2%;
+    width: 25%;
+    height: 25%;
+    color: #fc0202;
+}
+.rodape1 svg:hover{
+    transform: scale(2.00);
+    transition: .2s;
 }
 .pagamentos img {
     display: flex;
