@@ -8,6 +8,7 @@
     .sobre-nos p{     
     margin-left: -5%;
     }
+    
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .content .lista-menu li a{
@@ -34,7 +35,6 @@
         font-size: 23px;
     }
 
-    
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .content input{
@@ -76,13 +76,14 @@
     } 
 
     .content input{
-        width: 20%;
+        width: 40%;
         height: 40%;
-        font-size: 10px;
+        font-size: 15px;
     }
     .content .lista-menu li a{
-        font-size: 10px;
+        font-size: 9px;
     }
+    
     .sobre-nos{
         overflow: hidden;
     }
